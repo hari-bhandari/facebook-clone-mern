@@ -1,13 +1,13 @@
 import {useState,useEffect} from "react";
 interface stateInterface{
-    width:number|undefined,
-    height:number|undefined
+    width:Number,
+    height:Number
 }
 function useWindowSize() {
     // Initialize state with undefined width/height so server and client renders match
     const [windowSize, setWindowSize] = useState<stateInterface>({
-        width: undefined,
-        height: undefined,
+        width: 0,
+        height: 0,
     });
 
     useEffect(() => {
@@ -32,3 +32,4 @@ function useWindowSize() {
 
     return windowSize;
 }
+export default useWindowSize

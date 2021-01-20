@@ -12,10 +12,9 @@ import NotificationsActiveIcon from '@material-ui/icons/NotificationsActive';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import MenuIcon from '@material-ui/icons/Menu';
 import {NavbarContainer,NavbarLeft,NavbarCenter,NavbarRight,InputContainer} from './Navbar.CSS'
+import useWindowSize from "../hooks/useWindowSize";
 const Navbar:React.FC = () => {
-    useEffect(()=>{
-        console.log(window.innerWidth)
-    },[window])
+    const size=useWindowSize()
     return (
         <NavbarContainer>
             <NavbarLeft>
@@ -37,7 +36,7 @@ const Navbar:React.FC = () => {
                     <input placeholder="Search Facebook" type="text" />
                 </InputContainer>
             </NavbarLeft>
-            {window.innerWidth>752?(
+            {size?.width>752?(
             <NavbarCenter>
                 <div className="header__option header__option--active">
                     <HomeIcon fontSize="large" />
@@ -54,7 +53,7 @@ const Navbar:React.FC = () => {
                 <div className="header__option">
                     <SupervisedUserCirceIcon fontSize="large" />
                 </div>
-            </NavbarCenter>):(<div></div>)}
+            </NavbarCenter>):(<NavbarCenter><div className="header__option"><MenuIcon fontSize="large" /></div></NavbarCenter>)}
             <NavbarRight>
                 <div className="header__info">
                     <Avatar />
