@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import SearchIcon from '@material-ui/icons/Search';
 import HomeIcon from '@material-ui/icons/Home';
 import FlagIcon from '@material-ui/icons/Flag';
@@ -10,8 +10,12 @@ import AddIcon from '@material-ui/icons/Add';
 import ForumIcon from '@material-ui/icons/Forum';
 import NotificationsActiveIcon from '@material-ui/icons/NotificationsActive';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+import MenuIcon from '@material-ui/icons/Menu';
 import {NavbarContainer,NavbarLeft,NavbarCenter,NavbarRight,InputContainer} from './Navbar.CSS'
 const Navbar:React.FC = () => {
+    useEffect(()=>{
+        console.log(window.innerWidth)
+    },[window])
     return (
         <NavbarContainer>
             <NavbarLeft>
@@ -33,6 +37,7 @@ const Navbar:React.FC = () => {
                     <input placeholder="Search Facebook" type="text" />
                 </InputContainer>
             </NavbarLeft>
+            {window.innerWidth>752?(
             <NavbarCenter>
                 <div className="header__option header__option--active">
                     <HomeIcon fontSize="large" />
@@ -49,7 +54,7 @@ const Navbar:React.FC = () => {
                 <div className="header__option">
                     <SupervisedUserCirceIcon fontSize="large" />
                 </div>
-            </NavbarCenter>
+            </NavbarCenter>):(<div></div>)}
             <NavbarRight>
                 <div className="header__info">
                     <Avatar />

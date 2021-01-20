@@ -73,6 +73,15 @@ export const NavbarCenter = styled.div`
     padding: 0 30px;
     cursor: pointer;
   }
+  @media screen and (max-width: 854px) {
+    .header__option {
+      display: flex;
+      align-items: center;
+      padding: 0 15px;
+      cursor: pointer;
+    }
+  }
+  
 
   .header__option:hover {
     background-color: #53585b;
