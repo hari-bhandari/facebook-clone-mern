@@ -55,10 +55,11 @@ const Navbar:React.FC = () => {
                 </div>
             </NavbarCenter>):(<NavbarCenter><div className="header__option"><MenuIcon fontSize="large" /></div></NavbarCenter>)}
             <NavbarRight>
+                {size.width>=445?(
                 <div className="header__info">
                     <Avatar />
                     <h4>Hari</h4>
-                </div>
+                </div>):(<div></div>)}
                 <IconButton>
                     <AddIcon />
                 </IconButton>
