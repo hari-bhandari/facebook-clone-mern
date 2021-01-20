@@ -10,8 +10,7 @@ import AddIcon from '@material-ui/icons/Add';
 import ForumIcon from '@material-ui/icons/Forum';
 import NotificationsActiveIcon from '@material-ui/icons/NotificationsActive';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-import {NavbarContainer,NavbarLeft,NavbarCenter,NavbarRight} from './Navbar.CSS'
-import logo from './facebook.svg'
+import {NavbarContainer,NavbarLeft,NavbarCenter,NavbarRight,InputContainer} from './Navbar.CSS'
 const Navbar:React.FC = () => {
     return (
         <NavbarContainer>
@@ -29,10 +28,10 @@ const Navbar:React.FC = () => {
                     <path fill="white"
                           d="M25 23l.8-5H21v-3.5c0-1.4.5-2.5 2.7-2.5H26V7.4c-1.3-.2-2.7-.4-4-.4-4.1 0-7 2.5-7 7v4h-4.5v5H15v12.7c1 .2 2 .3 3 .3s2-.1 3-.3V23h4z"></path>
                 </svg>
-                <div className="input">
+                <InputContainer>
                     <SearchIcon className={"searchIcon"} />
                     <input placeholder="Search Facebook" type="text" />
-                </div>
+                </InputContainer>
             </NavbarLeft>
             <NavbarCenter>
                 <div className="header__option header__option--active">

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="843eabb7-7975-4799-9d0a-84141dce6ba0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/facebook.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Navbar.CSS.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar.CSS.ts" afterDir="false" />
@@ -51,7 +50,7 @@
       <updated>1611082269103</updated>
       <workItem from="1611082270277" duration="2571000" />
       <workItem from="1611085295421" duration="315000" />
-      <workItem from="1611158037790" duration="11607000" />
+      <workItem from="1611158037790" duration="13964000" />
     </task>
     <servers />
   </component>

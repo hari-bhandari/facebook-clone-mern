@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const NavbarContainer = styled.div`
+  height: 56px;
   padding: 6px 20px;
   display: flex;
   justify-content: space-between;
@@ -10,26 +11,42 @@ export const NavbarContainer = styled.div`
   top: 0;
   box-shadow: 0 5px 8px -9px rgba(0, 0, 0, 0.75);
 `
+export const InputContainer=styled.div`
+  display: flex;
+  align-items: center;
+  background-color: #3a3b3c;
+  padding: 10px;
+  margin-left: 10px;
+  border-radius: 999px;
+  color: #e4e6eb;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  font: 400 13.3333px Arial;
+  width: 239px;
+  input::placeholder {
+    color: #e4e6eb;
+  }
+  input {
+    border: none;
+    background-color: transparent;
+    outline-width: 0;
+    color: #e4e6eb;
+
+  }
+  @media screen and (max-width: 1264px) {
+    width: 22px;
+    input::placeholder{
+      opacity: 0;
+    }
+  }
+`
 export const NavbarLeft = styled.div`
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   color: #385898;
-
-  .input {
-    display: flex;
-    align-items: center;
-    background-color: #3a3b3c;
-    padding: 10px;
-    margin-left: 10px;
-    border-radius: 999px;
-    color: #e4e6eb;
-    letter-spacing: normal;
-    word-spacing: normal;
-    text-transform: none;
-    font: 400 13.3333px Arial;
-    
-  }
+  
   .p361ku9c{
     background-color: white;
   }
@@ -39,17 +56,7 @@ export const NavbarLeft = styled.div`
     padding: 0;
   }
 
-  input::placeholder {
-    color: #e4e6eb;
-  }
-
-  input {
-    border: none;
-    background-color: transparent;
-    outline-width: 0;
-    color: #e4e6eb;
-
-  }
+ 
 
   .searchIcon {
     color: #e4e6eb;
