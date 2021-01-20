@@ -1,5 +1,7 @@
 import React from 'react';
 import { Avatar } from '@material-ui/core';
+import {SidebarRowContainer} from "./Sidebar.CSS";
+
 interface SidebarRowProps{
     src?:string,
     Icon?:any,
@@ -7,12 +9,12 @@ interface SidebarRowProps{
 }
 const SidebarRow:React.FC<SidebarRowProps> = ({src,Icon,title}) => {
     return (
-        <div className="sidebarRow">
+        <SidebarRowContainer>
             {src && <Avatar src={src} />}
             {Icon && <Icon />}
 
             <h4>{title}</h4>
-        </div>
+        </SidebarRowContainer>
     );
 };
 

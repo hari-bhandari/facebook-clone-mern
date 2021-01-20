@@ -4,11 +4,13 @@ export const SidebarContainer=styled.div`
   padding: 25px 10px;
   flex: 0.33;
 `
-export const SidebarRow=styled.div`
+export const SidebarRowContainer=styled.div`
   display: flex;
   align-items: center;
   padding: 10px;
   cursor: pointer;
+  color: white;
+  max-width: 280px;
   &:hover{
     background-color: lightgray;
     border-radius: 10px;
