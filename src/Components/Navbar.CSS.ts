@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const NavbarContainer = styled.div`
-  height: 54px;
   padding: 6px 20px;
   display: flex;
   justify-content: space-between;
@@ -15,6 +14,7 @@ export const NavbarLeft = styled.div`
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  color: #385898;
 
   .input {
     display: flex;
@@ -24,10 +24,19 @@ export const NavbarLeft = styled.div`
     margin-left: 10px;
     border-radius: 999px;
     color: #e4e6eb;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    font: 400 13.3333px Arial;
+    
+  }
+  .p361ku9c{
+    background-color: white;
   }
 
   img {
-    height: 38px;
+    height: 40px;
+    padding: 0;
   }
 
   input::placeholder {
