@@ -10,7 +10,7 @@ import AddIcon from '@material-ui/icons/Add';
 import ForumIcon from '@material-ui/icons/Forum';
 import NotificationsActiveIcon from '@material-ui/icons/NotificationsActive';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-import {NavbarContainer,NavbarLeft} from './Navbar.CSS'
+import {NavbarContainer,NavbarLeft,NavbarCenter} from './Navbar.CSS'
 const Navbar:React.FC = () => {
     return (
         <NavbarContainer>
@@ -24,6 +24,23 @@ const Navbar:React.FC = () => {
                     <input placeholder="Search Facebook" type="text" />
                 </div>
             </NavbarLeft>
+            <NavbarCenter>
+                <div className="header__option header__option--active">
+                    <HomeIcon fontSize="large" />
+                </div>
+                <div className="header__option">
+                    <FlagIcon fontSize="large" />
+                </div>
+                <div className="header__option">
+                    <SubscriptionsOutlinedIcon fontSize="large" />
+                </div>
+                <div className="header__option">
+                    <StorefrontOutlinedIcon fontSize="large" />
+                </div>
+                <div className="header__option">
+                    <SupervisedUserCirceIcon fontSize="large" />
+                </div>
+            </NavbarCenter>
         </NavbarContainer>
     );
 };
