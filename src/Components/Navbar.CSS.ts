@@ -68,7 +68,24 @@ export const NavbarCenter = styled.div`
 
   .MuiSvgIcon-root {
     color: #b0b3b8;
+    height: 28px;
+    width: 28px;
   }
 
 
+`
+export const NavbarRight = styled.div`
+  color: white;
+  display: flex;
+  .header__info {
+    display: flex;
+    align-items: center;
+  }
+  .header__info >h4{
+    color: #b0b3b8;
+    margin-left: 10px;
+  }
+  .MuiSvgIcon-root {
+    color: #b0b3b8;
+  }
 `

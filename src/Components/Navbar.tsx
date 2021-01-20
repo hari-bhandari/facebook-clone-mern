@@ -10,7 +10,7 @@ import AddIcon from '@material-ui/icons/Add';
 import ForumIcon from '@material-ui/icons/Forum';
 import NotificationsActiveIcon from '@material-ui/icons/NotificationsActive';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-import {NavbarContainer,NavbarLeft,NavbarCenter} from './Navbar.CSS'
+import {NavbarContainer,NavbarLeft,NavbarCenter,NavbarRight} from './Navbar.CSS'
 const Navbar:React.FC = () => {
     return (
         <NavbarContainer>
@@ -41,6 +41,24 @@ const Navbar:React.FC = () => {
                     <SupervisedUserCirceIcon fontSize="large" />
                 </div>
             </NavbarCenter>
+            <NavbarRight>
+                <div className="header__info">
+                    <Avatar />
+                    <h4>Hari</h4>
+                </div>
+                <IconButton>
+                    <AddIcon />
+                </IconButton>
+                <IconButton>
+                    <ForumIcon />
+                </IconButton>
+                <IconButton>
+                    <NotificationsActiveIcon />
+                </IconButton>
+                <IconButton>
+                    <ExpandMoreIcon />
+                </IconButton>
+            </NavbarRight>
         </NavbarContainer>
     );
 };
