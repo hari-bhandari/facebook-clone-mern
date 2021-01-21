@@ -1,14 +1,16 @@
 import styled from "styled-components";
 export const ChatContainer=styled.div`
   position: sticky;
-  top: 56px;
+  top: 65px;
   flex: 0.2;
+  height: 100vh;
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
   border: none;
   flex-shrink: 9999;
-  overflow-y: hidden
+  bottom: 0;
+  overflow-y: auto;
 
 
 `
