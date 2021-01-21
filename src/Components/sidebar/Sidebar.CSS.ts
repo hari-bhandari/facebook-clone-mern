@@ -8,6 +8,7 @@ export const SidebarContainer=styled.div`
     display: none;
   }
   
+  
 `
 export const SidebarRowContainer=styled.div`
   display: flex;

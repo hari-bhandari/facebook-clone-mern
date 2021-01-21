@@ -11,6 +11,48 @@ function Chatbar() {
             <Chat title={"Hari Bhandari"} src={"assas"}/>
             <Chat title={"Hari Bhandari"} src={"assas"}/>
             <Chat title={"Hari Bhandari"} src={"assas"}/>
+            <Chat title={"Hari Bhandari"} src={"assas"}/>
+            <Chat title={"Hari Bhandari"} src={"assas"}/>
+            <Chat title={"Hari Bhandari"} src={"assas"}/>
+            <Chat title={"Hari Bhandari"} src={"assas"}/>
+            <Chat title={"Hari Bhandari"} src={"assas"}/>
+            <Chat title={"Hari Bhandari"} src={"assas"}/>
+            <Chat title={"Hari Bhandari"} src={"assas"}/>
+            <Chat title={"Hari Bhandari"} src={"assas"}/>
+            <Chat title={"Hari Bhandari"} src={"assas"}/>
+            <Chat title={"Hari Bhandari"} src={"assas"}/>
+            <Chat title={"Hari Bhandari"} src={"assas"}/>
+            <Chat title={"Hari Bhandari"} src={"assas"}/>
+            <Chat title={"Hari Bhandari"} src={"assas"}/>
+            <Chat title={"Hari Bhandari"} src={"assas"}/>
+            <Chat title={"Hari Bhandari"} src={"assas"}/>
+            <Chat title={"Hari Bhandari"} src={"assas"}/>
+            <Chat title={"Hari Bhandari"} src={"assas"}/>
+            <Chat title={"Hari Bhandari"} src={"assas"}/>
+            <Chat title={"Hari Bhandari"} src={"assas"}/>
+            <Chat title={"Hari Bhandari"} src={"assas"}/>
+            <Chat title={"Hari Bhandari"} src={"assas"}/>
+            <Chat title={"Hari Bhandari"} src={"assas"}/>
+            <Chat title={"Hari Bhandari"} src={"assas"}/>
+            <Chat title={"Hari Bhandari"} src={"assas"}/>
+            <Chat title={"Hari Bhandari"} src={"assas"}/>
+            <Chat title={"Hari Bhandari"} src={"assas"}/>
+            <Chat title={"Hari Bhandari"} src={"assas"}/>
+            <Chat title={"Hari Bhandari"} src={"assas"}/>
+            <Chat title={"Hari Bhandari"} src={"assas"}/>
+            <Chat title={"Hari Bhandari"} src={"assas"}/>
+            <Chat title={"Hari Bhandari"} src={"assas"}/>
+            <Chat title={"Hari Bhandari"} src={"assas"}/>
+            <Chat title={"Hari Bhandari"} src={"assas"}/>
+            <Chat title={"Hari Bhandari"} src={"assas"}/>
+            <Chat title={"Hari Bhandari"} src={"assas"}/>
+            <Chat title={"Hari Bhandari"} src={"assas"}/>
+            <Chat title={"Hari Bhandari"} src={"assas"}/>
+            <Chat title={"Hari Bhandari"} src={"assas"}/>
+            <Chat title={"Hari Bhandari"} src={"assas"}/>
+            <Chat title={"Hari Bhandari"} src={"assas"}/>
+            <Chat title={"Hari Bhandari"} src={"assas"}/>
+            <Chat title={"Hari Bhandari"} src={"assas"}/>
         </ChatContainer>
     );
 }

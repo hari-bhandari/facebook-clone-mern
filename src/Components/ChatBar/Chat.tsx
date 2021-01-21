@@ -10,7 +10,7 @@ const Chat:React.FC<SidebarRowProps> = ({src,title}) => {
     return (
         <ChatRowContainer>
             {src && <Avatar src={src}/>}
-            <h4>{title}</h4>
+            <span>{title}</span>
         </ChatRowContainer>
     );
 };

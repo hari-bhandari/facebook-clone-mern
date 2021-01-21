@@ -4,6 +4,7 @@ import Stories from "./Stories/Stories";
 
 const Feed = () => {
     return (
+
         <FeedContainer>
             <Stories/>
         </FeedContainer>

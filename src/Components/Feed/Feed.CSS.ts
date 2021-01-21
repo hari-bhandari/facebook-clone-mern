@@ -1,9 +1,16 @@
 import styled from "styled-components";
 export const FeedContainer=styled.div`
-  flex: 1;
-  padding: 50px 150px;
+  height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
+  overflow: scroll;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+
+
 `
