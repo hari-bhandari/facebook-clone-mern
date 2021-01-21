@@ -1,7 +1,9 @@
 import styled from "styled-components";
 export const StoriesContainer=styled.div`
   display: flex;
+  justify-content: center;
   max-width: 520px;
+  width: 100%;
   overflow-x: auto;
   &::-webkit-scrollbar {
     display: none;

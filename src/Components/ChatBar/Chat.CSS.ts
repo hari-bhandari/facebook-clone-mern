@@ -10,7 +10,34 @@ export const ChatContainer=styled.div`
   border: none;
   flex-shrink: 9999;
   bottom: 0;
-  overflow-y: auto;
+  overflow-y: hidden;
+
+  &::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 1px;
+    height: 15px;
+    border: 1px solid #000000;
+  }
+
+  &:hover {
+    overflow-y: scroll;
+  }
+  @media screen and (max-width: 900px) {
+    display: none;
+    flex: 0;
+  }
+  @media screen and (max-width: 1541px) {
+    flex: 0.25;
+  }
+  @media screen and (max-width: 1271px) {
+    flex: 0.3;
+  }
+  @media screen and (max-width: 1063px) {
+    flex: 0.38;
+  }
+  @media screen and (max-width: 952px) {
+    flex: 0.42;
+  }
 
 
 `

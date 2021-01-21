@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
 export const SidebarContainer=styled.div`
+  position: sticky;
+  top: 65px;
   padding: 25px 10px;
   flex: 0.33;
   @media screen and (max-width: 1264px) {
