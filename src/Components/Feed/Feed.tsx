@@ -7,6 +7,37 @@ const Feed = () => {
 
         <FeedContainer>
             <Stories/>
+            <Stories/>
+            <Stories/>
+            <Stories/>
+            <Stories/>
+            {/*<Stories/>*/}
+            {/*<Stories/>*/}
+            {/*<Stories/>*/}
+            {/*<Stories/>*/}
+            {/*<Stories/>*/}
+            {/*<Stories/>*/}
+            {/*<Stories/>*/}
+            {/*<Stories/>*/}
+            {/*<Stories/>*/}
+            {/*<Stories/>*/}
+            {/*<Stories/>*/}
+            {/*<Stories/>*/}
+            {/*<Stories/>*/}
+            {/*<Stories/>*/}
+            {/*<Stories/>*/}
+            {/*<Stories/>*/}
+            {/*<Stories/>*/}
+            {/*<Stories/>*/}
+            {/*<Stories/>*/}
+            {/*<Stories/>*/}
+            {/*<Stories/>*/}
+            {/*<Stories/>*/}
+            {/*<Stories/>*/}
+            {/*<Stories/>*/}
+            {/*<Stories/>*/}
+            {/*<Stories/>*/}
+            {/*<Stories/>*/}
         </FeedContainer>
     );
 };

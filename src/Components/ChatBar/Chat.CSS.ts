@@ -1,28 +1,24 @@
 import styled from "styled-components";
 export const ChatContainer=styled.div`
-  flex: 0.33;
+  position: sticky;
+  top: 56px;
+  flex: 0.2;
   display: flex;
+  justify-content: flex-start;
   flex-direction: column;
-  align-items: flex-end;
   border: none;
-  height: 100vh;
-  overflow-y: scroll;
-  &::-webkit-scrollbar {
-    display: none;
-  }
-  -ms-overflow-style: none;
-  scrollbar-width: none;
+  flex-shrink: 9999;
+  overflow-y: hidden
 
 
 `
 export const ChatRowContainer=styled.div`
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   padding: 10px;
   cursor: pointer;
   color: white;
-  min-width: 280px;
   max-width: 280px;
 
   &:hover {
@@ -46,5 +42,19 @@ export const ChatRowContainer=styled.div`
   .MuiAvatar-root {
     width: 36px !important;
     height: 36px !important;
+  }
+`
+export const ChatbarHeader=styled.div`
+  display: flex;
+  justify-content: space-between;
+  h2 {
+    margin-left: 10px;
+    font-size: 1.008rem;
+    text-align: left;
+    font-weight: 500;
+    color: #BDBDBD;
+  }
+  .MuiSvgIcon-root {
+    color: white;
   }
 `
