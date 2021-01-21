@@ -1,6 +1,9 @@
 import styled from "styled-components";
 export const ChatContainer=styled.div`
   flex: 0.33;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
   border: none;
   height: 100vh;
   overflow-y: scroll;
@@ -14,10 +17,12 @@ export const ChatContainer=styled.div`
 `
 export const ChatRowContainer=styled.div`
   display: flex;
+  justify-content: center;
   align-items: center;
   padding: 10px;
   cursor: pointer;
   color: white;
+  min-width: 280px;
   max-width: 280px;
 
   &:hover {
