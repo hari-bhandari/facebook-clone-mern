@@ -1,43 +1,14 @@
 import React from 'react';
 import {FeedContainer} from "./Feed.CSS";
 import Stories from "./Stories/Stories";
+import AddPost from "./AddPost";
 
 const Feed = () => {
     return (
 
         <FeedContainer>
             <Stories/>
-            <Stories/>
-            <Stories/>
-            <Stories/>
-            <Stories/>
-            {/*<Stories/>*/}
-            {/*<Stories/>*/}
-            {/*<Stories/>*/}
-            {/*<Stories/>*/}
-            {/*<Stories/>*/}
-            {/*<Stories/>*/}
-            {/*<Stories/>*/}
-            {/*<Stories/>*/}
-            {/*<Stories/>*/}
-            {/*<Stories/>*/}
-            {/*<Stories/>*/}
-            {/*<Stories/>*/}
-            {/*<Stories/>*/}
-            {/*<Stories/>*/}
-            {/*<Stories/>*/}
-            {/*<Stories/>*/}
-            {/*<Stories/>*/}
-            {/*<Stories/>*/}
-            {/*<Stories/>*/}
-            {/*<Stories/>*/}
-            {/*<Stories/>*/}
-            {/*<Stories/>*/}
-            {/*<Stories/>*/}
-            {/*<Stories/>*/}
-            {/*<Stories/>*/}
-            {/*<Stories/>*/}
-            {/*<Stories/>*/}
+            <AddPost/>
         </FeedContainer>
     );
 };
