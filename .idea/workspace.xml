@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="843eabb7-7975-4799-9d0a-84141dce6ba0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/Feed/AddPost.CSS.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Feed/AddPost.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Feed/Feed.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Feed/Feed.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Feed/AddPost.CSS.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Feed/AddPost.CSS.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Feed/Stories/Story.CSS.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Feed/Stories/Story.CSS.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +55,7 @@
       <workItem from="1611236363176" duration="13549000" />
       <workItem from="1611306786826" duration="3199000" />
       <workItem from="1611311304791" duration="1541000" />
-      <workItem from="1611339984250" duration="2768000" />
+      <workItem from="1611339984250" duration="3242000" />
     </task>
     <servers />
   </component>

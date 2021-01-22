@@ -48,7 +48,7 @@ export const PostContainerBottom=styled.div`
     cursor: pointer;
   }
   .messageSender__option:hover {
-    background-color: #eff2f5;
+    background-color: #45474a;
     border-radius: 20px;
   }
 `
