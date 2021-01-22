@@ -20,7 +20,7 @@ export const SidebarRowContainer=styled.div`
   color: white;
   max-width: 280px;
   &:hover{
-    background-color: lightgray;
+    background-color: #53585b;
     border-radius: 10px;
   }
   h4 {
