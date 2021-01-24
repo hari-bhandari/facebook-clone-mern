@@ -9,7 +9,7 @@ import {PostBottom,PostContainer,PostTop,Options} from './Post.CSS'
 
 interface PostProps{
     [index:string]:string,
-    timestamp:any
+    timestamp?:any
 }
 
 const Post:React.FC <PostProps>= ({ profilePic, image, username, timestamp, message }) => {
