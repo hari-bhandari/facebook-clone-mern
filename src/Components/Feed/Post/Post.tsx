@@ -7,12 +7,17 @@ import { ExpandMoreOutlined } from '@material-ui/icons';
 import { Avatar } from '@material-ui/core';
 import {PostBottom,PostContainer,PostTop,Options} from './Post.CSS'
 
+interface Props{
+    id:string,
+    data:PostProps
+}
 interface PostProps{
     [index:string]:string,
     timestamp?:any
 }
 
-const Post:React.FC <PostProps>= ({ profilePic, image, username, timestamp, message }) => {
+const Post:React.FC <Props>= ({data}) => {
+    const { profilePic, image, username, timestamp, message }=data
     return (
         <PostContainer>
             <PostTop>
