@@ -1,9 +1,10 @@
 import { configureStore, ThunkAction, Action } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
-
+import appReducer from '../features/app/appSlice';
+import cameraReducer from "../features/camera/cameraSlice";
 export const store = configureStore({
   reducer: {
-    counter: counterReducer,
+    app: appReducer,
+    camera:cameraReducer
   },
 });
 
