@@ -1,5 +1,9 @@
 import React from 'react';
 import styled from "styled-components";
+import {auth,provider} from "../../firebase";
+import {useDispatch} from "react-redux";
+import {login} from "../../features/app/appSlice";
+
 const LoginContainer=styled.div`
   display: grid;
   place-items: center;
@@ -27,7 +31,16 @@ const LoginContainer=styled.div`
 
 `
 const Login = () => {
-
+    const dispatch=useDispatch()
+    const signIn=()=>{
+        auth.signInWithPopup(provider).then(result => {
+            dispatch(login({
+                username:result.user?.displayName,
+                profilePic:result.user?.photoURL,
+                id:result.user?.uid
+            }))
+        }).catch(error=>alert(error.message))
+    }
     return (
         <LoginContainer>
             <div className="login__logo">
@@ -40,7 +53,7 @@ const Login = () => {
                     alt=""
                 />
             </div>
-            <button type="submit" >
+            <button type="submit" onClick={signIn}>
                 Sign In
             </button>
         </LoginContainer>
