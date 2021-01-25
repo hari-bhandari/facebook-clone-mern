@@ -4,7 +4,7 @@ import {StoryContainer} from "./Story.CSS";
 
 interface SidebarRowProps{
     image?:string,
-    profileSrc?:any,
+    profileSrc?:string,
     title:string
 }
 
