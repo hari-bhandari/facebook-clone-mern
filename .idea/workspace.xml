@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="843eabb7-7975-4799-9d0a-84141dce6ba0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Components/Login/Login.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,8 +35,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\2012b\WebstormProjects\facebook-mern\src\Components" />
       <recent name="C:\Users\2012b\WebstormProjects\facebook-mern\src" />
+      <recent name="C:\Users\2012b\WebstormProjects\facebook-mern\src\Components" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -56,6 +58,8 @@
       <workItem from="1611423062211" duration="1619000" />
       <workItem from="1611467807129" duration="3808000" />
       <workItem from="1611506492035" duration="628000" />
+      <workItem from="1611611234237" duration="1532000" />
+      <workItem from="1611614017538" duration="249000" />
     </task>
     <servers />
   </component>
