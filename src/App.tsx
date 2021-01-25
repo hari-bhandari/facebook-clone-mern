@@ -1,4 +1,4 @@
-import React, {Fragment} from 'react';
+import React, {Fragment,useEffect} from 'react';
 
 import './App.css';
 import {ThemeProvider} from "styled-components";
@@ -9,9 +9,27 @@ import Sidebar from "./Components/sidebar/Sidebar";
 import Feed from "./Components/Feed/Feed";
 import Chatbar from "./Components/ChatBar/Chatbar";
 import Login from "./Components/Login/Login";
+import { useSelector,useDispatch} from "react-redux";
+import {login, selectUser, logout} from "./features/app/appSlice";
+import {auth} from "./firebase";
 
 function App() {
-    const user = null
+    const user = useSelector(selectUser)
+    const dispatch = useDispatch()
+    useEffect(() => {
+        auth.onAuthStateChanged((authUser) => {
+            if (authUser) {
+                dispatch(login({
+                    username: authUser.displayName,
+                    profilePic: authUser.photoURL,
+                    id: authUser.uid
+                }))
+            } else {
+                dispatch(logout())
+            }
+        })
+    }, [])
+
     return (
         <div className="App">
             <ThemeProvider theme={theme}>
