@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="843eabb7-7975-4799-9d0a-84141dce6ba0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Feed/Post/Post.CSS.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Feed/Post/Post.CSS.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +55,7 @@
       <workItem from="1611339984250" duration="5774000" />
       <workItem from="1611423062211" duration="1619000" />
       <workItem from="1611467807129" duration="3808000" />
+      <workItem from="1611506492035" duration="628000" />
     </task>
     <servers />
   </component>
