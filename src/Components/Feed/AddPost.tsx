@@ -4,11 +4,31 @@ import PhotoLibraryIcon from '@material-ui/icons/PhotoLibrary';
 import InsertEmoticonIcon from '@material-ui/icons/InsertEmoticon';
 import { Avatar } from '@material-ui/core';
 import {AddPostContainer,PostContainerBottom,PostContainerTop} from "./AddPost.CSS";
+import firebase from 'firebase'
+import {db} from "../../firebase";
+import {useSelector} from "react-redux";
+import {selectUser} from "../../features/app/appSlice";
+
 
 const AddPost = () => {
+    const user = useSelector(selectUser)
+
     const [input, setInput] = useState<string>('');
     const [inputURL, setInputURL] = useState<string>('');
+    const handleSubmit = (e:any) => {
+        e.preventDefault();
 
+        db.collection('posts').add({
+            message: input,
+            timestamp: firebase.firestore.FieldValue.serverTimestamp(),
+            profilePic: user?.profilePic,
+            username: user?.username,
+            image: inputURL
+        })
+
+        setInput('');
+        setInputURL('');
+    };
     return (
         <AddPostContainer>
             <PostContainerTop>
@@ -27,7 +47,7 @@ const AddPost = () => {
                         type="text"
                         placeholder="Image URL (Optional)"
                     />
-                    <button  type="submit">
+                    <button  type="submit" onClick={handleSubmit}>
                         Hidden Button
                     </button>
                 </form>

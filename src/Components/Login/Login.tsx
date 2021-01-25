@@ -34,6 +34,7 @@ const Login = () => {
     const dispatch=useDispatch()
     const signIn=()=>{
         auth.signInWithPopup(provider).then(result => {
+            console.log(result)
             dispatch(login({
                 username:result.user?.displayName,
                 profilePic:result.user?.photoURL,
