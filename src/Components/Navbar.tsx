@@ -13,7 +13,10 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import MenuIcon from '@material-ui/icons/Menu';
 import {NavbarContainer,NavbarLeft,NavbarCenter,NavbarRight,InputContainer} from './Navbar.CSS'
 import useWindowSize from "../hooks/useWindowSize";
+import {useSelector} from "react-redux";
+import {selectUser} from "../features/app/appSlice";
 const Navbar:React.FC = () => {
+    const user = useSelector(selectUser)
     const size=useWindowSize()
     return (
         <NavbarContainer>
@@ -58,7 +61,7 @@ const Navbar:React.FC = () => {
                 {size.width>=445?(
                 <div className="header__info">
                     <Avatar />
-                    <h4>Hari</h4>
+                    <h4>{user?.username}</h4>
                 </div>):(<div></div>)}
                 <IconButton>
                     <AddIcon />
